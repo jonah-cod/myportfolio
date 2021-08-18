@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.wrap>img {
+    width: 100px;
+    height: 110px;
+    border-radius: 100px;
+}
+
+.header {
+    background-color: rgb(187, 184, 184);
+    height: 100px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 40px;
+}
+
+.profile {
+    display: flex;
+    gap: 50px;
+    align-self: center;
+    justify-content: center;
+}
+
+.me {
+    width: 400px;
+}
+
+.education {
+    width: 400px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: rgb(223, 221, 221);
+    padding: 20px;
+    width: 80%;
+}
+
+.skillcon>ul {
+    list-style-type: none;
+}
+
+.skill>small {
+    color: orangered;
+}
+
+pre {
+    line-height: 15px;
+}
+
+.referenceshobbies {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    margin: 50px;
+}
+
+.hobbies>ul {
+    list-style-type: circle;
+    line-height: 30px;
+}
+
+.reference>h4 {
+    text-align: center;
+}
+
+.contact>img {
+    width: 40px;
+    mix-blend-mode: multiply;
+    border-radius: 100%;
+    float: left;
+}
+
+.contact>a {
+    margin: 10px;
+    align-self: center;
+    text-decoration: none;
+    color: rgb(48, 47, 47);
+    font-weight: 550;
+    text-justify: center;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px;
+    background-color: rgb(187, 184, 184);
+    width: 100%;
+}
+
+.contactme {
+    text-align: center;
+}
